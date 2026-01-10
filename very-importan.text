@@ -1,0 +1,65 @@
+CREATE YOUR FIRST DJANGO PROJECT (Very Short)
+01. Project Folder
+mkdir main_project
+
+
+👉 নতুন ফোল্ডার তৈরি
+
+cd main_project
+
+
+👉 ফোল্ডারের ভিতরে ঢোকা
+
+02. Virtual Environment
+python -m venv venv
+
+
+👉 আলাদা Python environment তৈরি
+
+❌ python-m venv ভুল
+❌ python3-m venv ভুল
+
+03. Virtual Environment চালু
+
+Windows
+
+venv\Scripts\activate
+
+
+Linux / macOS
+
+source venv/bin/activate
+
+
+👉 (venv) দেখালে active
+
+04. Django Install
+pip install django
+
+
+👉 Django install
+
+👉 venv active হলে pip3 লাগবে না
+
+05. Django Project
+django-admin startproject config .
+
+
+👉 config = project নাম
+👉 . = একই ফোল্ডারে তৈরি
+
+06. Server Run
+python manage.py runserver
+
+
+👉 Django server চালু
+
+Browser
+
+👉 http://127.0.0.1:8000/
+
+✅ Result
+
+✔️ Django project ready
+✔️ Server running
+✔️ Welcome page দেখা যাবে

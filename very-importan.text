@@ -27,7 +27,7 @@ venv\Scripts\activate
 
 
 Linux / macOS
-
+  
 source venv/bin/activate
 
 
@@ -74,4 +74,9 @@ goli  vele jawyer  chance thakbe .
 
 
 
-daily  trial trial korte  hobe . 
+Daily  trial korte  hobe . 
+
+
+django te generally  son goli kaj apps create kore korte hoy . 
+jode  kono  error thake  tobe easily identify kore 
+solve kora jay .                         
